@@ -1,0 +1,22 @@
+Folders:
+	- SMART_CITIES -> ASP.Net MVC Project
+	- DB -> BackUp database
+
+
+Description:
+
+	The project was developed on MVC base arhitecture. Using tehnology:
+		      - Database -> MS SQL; Random generate data with Stored procedures;
+		      - Ado.Net -> use for connect DB to Project
+		      - MVC Web API -> transfer data from DB to View
+		      - Google Maps API -> use to visualizes map with data
+		      - Design -> bootstrap v4 , jquery , bootstrap js
+
+
+Tests: 
+	User tests are made with a small amount of data
+
+
+
+Problems: 
+	Processing large quantities	

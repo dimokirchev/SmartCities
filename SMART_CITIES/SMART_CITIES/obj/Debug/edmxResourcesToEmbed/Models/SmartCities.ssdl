@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMART_CITIESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="number" />
+    </Key>
+    <Property Name="number" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="1" />
+    <Property Name="age" Type="int" />
+  </EntityType>
+  <EntityType Name="Traffic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="aNumber" Type="varchar" MaxLength="20" />
+    <Property Name="direction" Type="varchar" MaxLength="3" />
+    <Property Name="bNumber" Type="varchar" MaxLength="20" />
+    <Property Name="startDateTime" Type="datetime" />
+    <Property Name="cellLong" Type="numeric" Precision="19" Scale="16" />
+    <Property Name="cellLat" Type="numeric" Precision="19" Scale="16" />
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Traffic_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Traffic" Type="Self.Traffic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="number" />
+      </Principal>
+      <Dependent Role="Traffic">
+        <PropertyRef Name="aNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SMART_CITIESModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Traffic" EntityType="Self.Traffic" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Traffic_Customer" Association="Self.FK_Traffic_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Traffic" EntitySet="Traffic" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

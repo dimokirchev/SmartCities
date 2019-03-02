@@ -1,0 +1,122 @@
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.dll.config
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.pdb
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Antlr3.Runtime.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\EntityFramework.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\EntityFramework.SqlServer.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Newtonsoft.Json.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Owin.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Net.Http.Formatting.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Helpers.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.WebHost.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Mvc.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Optimization.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Razor.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\WebGrease.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Helpers.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Mvc.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Optimization.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Razor.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Antlr3.Runtime.pdb
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Newtonsoft.Json.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Net.Http.Formatting.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.WebHost.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\EntityFramework.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\EntityFramework.SqlServer.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.dll
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.pdb
+C:\Users\Dimo Kirchev\Desktop\Adastra\Project\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.csprojResolveAssemblyReference.cache
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.dll.config
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\SMART_CITIES.pdb
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Antlr3.Runtime.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\EntityFramework.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\EntityFramework.SqlServer.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Core.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Cookies.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Facebook.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Google.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.OAuth.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Twitter.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Web.Infrastructure.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Newtonsoft.Json.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Owin.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Net.Http.Formatting.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Helpers.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.WebHost.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Mvc.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Optimization.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Razor.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Deployment.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Razor.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\WebGrease.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Helpers.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Mvc.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Optimization.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Razor.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Deployment.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.WebPages.Razor.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Antlr3.Runtime.pdb
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Newtonsoft.Json.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Net.Http.Formatting.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\System.Web.Http.WebHost.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\EntityFramework.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\EntityFramework.SqlServer.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Core.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Facebook.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Cookies.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.OAuth.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Google.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.Twitter.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.csprojResolveAssemblyReference.cache
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.dll
+D:\bgkirch\Private\SMART_CITIES\SMART_CITIES\SMART_CITIES\obj\Debug\SMART_CITIES.pdb

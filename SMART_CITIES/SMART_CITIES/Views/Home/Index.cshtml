@@ -1,0 +1,244 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts {
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJAIYr4mYqbRZ6kadKf34w67brMPnzk0Y&callback=initMap" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        var ageValue = null;
+        var gender = null;
+        var date = null;
+
+        window.onload = function () {
+            var mapOptions = {
+                center: new google.maps.LatLng(48.148598, 17.107748),
+                zoom: 10,
+                scrollwheel: true,
+                gestureHandling: 'cooperative',
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var infoWindow = new google.maps.InfoWindow();
+            var latlngbounds = new google.maps.LatLngBounds();
+            var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
+
+            var url = "/api/MapInfoes/get";
+            var my_json;
+            $.getJSON(url, { age: ageValue, gender: gender, date: date }, function (json) {
+                my_json = json;
+                console.log(json);
+                $.each(my_json, function (key, value) {                 
+                    if (value.ageFilter === null && value.datesFilter === null) {
+                        var latlng = new google.maps.LatLng(value.cellLat, value.cellLong);
+                        placeMarker(map, latlng, value);
+                    }
+                    else {                      
+                        fillFilters(value.datesFilter, value.ageFilter);
+                    }
+
+                });
+            });
+
+
+            // old version on app
+            //$('#datepicker').on('change', function (ev) {
+            //    date = $(this).val();            
+            //});
+
+            $("#AgeFilter").change(function () {
+                ageValue = $(this).val();
+                reloadMap();
+            });
+
+
+            $("#DateFilter").change(function () {
+                date = $(this).val();
+                reloadMap();
+            });
+
+            $("input[name='GenderRadios']").change(function () {
+                if ($(this).val() === 'M') {
+                    gender = "M";
+                    reloadMap();
+
+                } else if ($(this).val() === 'F') {
+                    gender = "F";
+                    reloadMap();
+                }
+                else if ($(this).val() === '?') {
+                    gender = "?";
+                    reloadMap();
+                }
+
+
+            });
+
+            // refresh page
+            $('#BtnRefresh').click(function () {
+                location.reload();
+            });
+        }
+
+        // refresh map
+        function reloadMap()
+        {
+            var mapOptions = {
+                center: new google.maps.LatLng(48.148598, 17.107748),
+                zoom: 10,
+                scrollwheel: true,
+                gestureHandling: 'cooperative',
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var infoWindow = new google.maps.InfoWindow();
+            var latlngbounds = new google.maps.LatLngBounds();
+            var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
+
+
+            var url = "/api/MapInfoes/get";
+            var my_json;
+            var ageValueReplace = null;
+            if (ageValue != null)
+            {
+                ageValueReplace = ageValue.toString().replace(/\,/g, ';');
+            }
+           
+            $.getJSON(url, { age: ageValueReplace, gender: gender, date: date }, function (json) {
+                my_json = json;
+                $.each(my_json, function (key, value) {
+                        var latlng = new google.maps.LatLng(value.cellLat, value.cellLong);
+                        placeMarker(map, latlng, value);
+                });
+            });
+        }
+
+        // Create goole POI icon with GPS coordinates
+        function placeMarker(map, location, value) {
+            console.log(location);
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+
+            var infowindow = new google.maps.InfoWindow({
+                content: 'count calls: ' + value.count + "</br>" + location,
+                maxWidth: 200,
+                map: map
+            });
+
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+            });
+
+            infowindow.close();
+           
+        }
+
+        // fill filters with value 
+        function fillFilters(datesFilter,ageFilter)
+        {
+            $("#AgeFilter > option").each(function () {               
+                var option = $(this);            
+                var minage = $(this).attr('minage');
+                var maxage = $(this).attr('maxage');
+                
+                $.each(ageFilter, function (index, value) {                 
+                    if(value > minage && value < maxage)
+                    {                      
+                       option.removeAttr("disabled");
+                    }
+                });
+            });
+
+            $.each(datesFilter, function (index, value) {
+                $("#DateFilter").append('<option>' + value + '</option>');
+            });
+        }
+
+    </script>
+
+
+    <!-- old version app -->
+    @*<script>
+        var disabledDates = ["10/02/2019"]
+        $('#datepicker').datepicker({
+            beforeShowDay: function(date){
+                var string = jQuery.datepicker.formatDate('dd/mm/yy', date);
+                return [ disabledDates.indexOf(string) == -1 ]
+            },
+
+            uiLibrary: 'bootstrap4',
+        });
+    </script>*@
+   
+
+
+}
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <h1 class="my-4">Filters</h1>
+
+            <div class="list-group">
+                <div class="form-group col-md-6 col-lg-6 col-sm-6">
+                 
+                    <select id="AgeFilter" class="selectpicker" multiple data-live-search="false" >
+                        <option minage="1" maxage="18" disabled="disabled">1-18</option>
+                        <option minage="18" maxage="25" disabled="disabled">18-25</option>
+                        <option minage="26" maxage="35" disabled="disabled">26-35</option> 
+                        <option minage="36" maxage="45" disabled="disabled">36-45</option>
+                        <option minage="46" maxage="65" disabled="disabled">46-65</option> 
+                        <option minage="66" maxage="100" disabled="disabled">66-100</option>                
+                    </select>
+                </div>
+            </div>
+            <div class="list-group">
+                <!-- radio button gender - male -->
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="maleID" value="M" name="GenderRadios">
+                    <label class="custom-control-label" for="maleID">Male</label>
+                </div>
+
+                <!-- radio button gender - female -->
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="femaleID" value="F" name="GenderRadios">
+                    <label class="custom-control-label" for="femaleID">Female</label>
+                </div>
+
+                <!-- radio button gender - ? -->
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="genderID" value="?" name="GenderRadios">
+                    <label class="custom-control-label" for="genderID">?</label>
+                </div>
+            </div>         
+
+
+            <div class="list-group">
+                @*<input id="datepicker" width="276" placeholder="Select date" disabled="disabled" />*@
+                <select id="DateFilter" class="browser-default custom-select">
+                    <option selected value="null">Date filter</option>                   
+                </select>
+            </div>
+
+            <div class="list-group">
+                <input type="button" id="BtnRefresh" class="btn-info" value="REFRESH" />
+            </div>
+        </div>
+
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-9">
+            <div class="card mt-4">
+                <!-- DIV for google map-->
+                <div id="dvMap" style="width: auto; height: 600px;"></div>
+            </div>
+        </div>
+
+
+        <br />
+        <!-- /.col-lg-9 -->
+    </div>
+</div>
+<br />
+
+

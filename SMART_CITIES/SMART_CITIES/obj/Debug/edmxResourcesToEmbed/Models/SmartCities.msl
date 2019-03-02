@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SMART_CITIESModelStoreContainer" CdmEntityContainer="SMART_CITIESEntities">
+    <EntitySetMapping Name="Customer">
+      <EntityTypeMapping TypeName="SMART_CITIESModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Traffic">
+      <EntityTypeMapping TypeName="SMART_CITIESModel.Traffic">
+        <MappingFragment StoreEntitySet="Traffic">
+          <ScalarProperty Name="aNumber" ColumnName="aNumber" />
+          <ScalarProperty Name="direction" ColumnName="direction" />
+          <ScalarProperty Name="bNumber" ColumnName="bNumber" />
+          <ScalarProperty Name="startDateTime" ColumnName="startDateTime" />
+          <ScalarProperty Name="cellLong" ColumnName="cellLong" />
+          <ScalarProperty Name="cellLat" ColumnName="cellLat" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

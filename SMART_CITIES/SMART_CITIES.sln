@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMART_CITIES", "SMART_CITIES\SMART_CITIES.csproj", "{54EAF823-B63A-4D5E-A05B-F216B4DE3AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMART_CITIES.Tests", "SMART_CITIES.Tests\SMART_CITIES.Tests.csproj", "{B935C648-A02E-4AC8-B2BE-F373CD16A574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54EAF823-B63A-4D5E-A05B-F216B4DE3AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EAF823-B63A-4D5E-A05B-F216B4DE3AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EAF823-B63A-4D5E-A05B-F216B4DE3AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EAF823-B63A-4D5E-A05B-F216B4DE3AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B935C648-A02E-4AC8-B2BE-F373CD16A574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B935C648-A02E-4AC8-B2BE-F373CD16A574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B935C648-A02E-4AC8-B2BE-F373CD16A574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B935C648-A02E-4AC8-B2BE-F373CD16A574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
